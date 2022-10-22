@@ -36,10 +36,10 @@ import telebot
 from telebot import types
 
 
-TOKEN = '5029243550:AAFBDf28GFlgJCx-g6FdzBPv4Z7kiyGQBbU'
+TOKEN = ''
 
 bot = telebot.TeleBot(TOKEN)
-admin_id = '750128157'
+admin_id = ''
 
 
 @bot.message_handler(commands=["start"])
